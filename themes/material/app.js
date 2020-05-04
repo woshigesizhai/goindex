@@ -268,7 +268,7 @@ function file_video(path){
 <div class="mdui-container-fluid">
 	<br>
 	<video class="mdui-video-fluid mdui-center" preload controls>
-	  <source src="http://sizhai.firadio.net.web72.feieryun.cn:82/player/?url=${url}" type="video/mp4">
+	  <iframe width="500" height="281" src="http://sizhai.firadio.net.web72.feieryun.cn:82/player/?url=${url}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 	</video>
 	<br>${playBtn}
 	<!-- 固定标签 -->
